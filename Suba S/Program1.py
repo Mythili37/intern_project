@@ -6,3 +6,5 @@ car={
 x=car.values()
 car["year"]=2018
 print(x)
+
+#to get the values of the car
