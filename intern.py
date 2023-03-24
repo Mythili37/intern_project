@@ -3,6 +3,8 @@ def default_function():
 
 def add(a,b):
     print(a+b)
+def mul(a,b):
+    print(a*b)
 
 def div(a, b):
     print(a / b)
@@ -12,6 +14,7 @@ if __name__ == "__main__":
 
     print("1. Default Choice")
     print("2. Addition")
+    print("4.Muiltiplication")
     print("5. Division")
 
     while True:
@@ -27,6 +30,10 @@ if __name__ == "__main__":
             inp1 = int(input("enter the number"))
             inp2 = int(input("enter the number"))
             add(inp1,inp2)
+        elif choice==4:
+            inp1 = int(input("enter the number"))
+            inp2 = int(input("enter the number"))
+            mul(inp1,inp2)
         elif choice == 5:
             inp1 = int(input("enter the number"))
             inp2 = int(input("enter the number"))
