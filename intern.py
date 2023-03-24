@@ -17,6 +17,9 @@ def mul(a,b):
 def div(a, b):
     print(a / b)
 
+def addition(a,b):
+    return f"{a} + {b} = {a+b}"
+
 
 if __name__ == "__main__":
 
@@ -27,6 +30,7 @@ if __name__ == "__main__":
     print("3. Subtraction")
     print("4.Muiltiplication")
     print("5. Division")
+    print("6. Add")
 
     while True:
 
@@ -53,5 +57,9 @@ if __name__ == "__main__":
             inp1 = int(input("enter the number"))
             inp2 = int(input("enter the number"))
             div(inp1, inp2)
+        elif choice == 6:
+            inp1 = float(input("Enter the 1st number : "))
+            inp2 = float(input("Enter the 2nd number : "))
+            print(addition(inp1, inp2))
 
     print("Thanks! Come Again")
