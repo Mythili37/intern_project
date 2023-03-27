@@ -7,7 +7,7 @@ def add(a,b):
 
 
 def sub(a, b):
-    print(f"Subtraction of {a} and {b} is :", a-b)
+    return a-b
 
 
 def mul(a,b):
@@ -48,7 +48,7 @@ if __name__ == "__main__":
         elif choice == 3:
             inp1 = int(input("enter the number :"))
             inp2 = int(input("enter the number :"))
-            sub(inp1, inp2)
+            print("The Value is",sub(inp1, inp2))
         elif choice==4:
             inp1 = int(input("enter the number"))
             inp2 = int(input("enter the number"))
